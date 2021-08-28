@@ -58,7 +58,7 @@ jobs:
         with:
 #          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           images: |
-            my-docker-hub-namespace/my-docker-hub-repository
+            sanqitang/publish-docker
             ghcr.io/${{ github.repository }}
 
 
